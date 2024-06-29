@@ -7,6 +7,7 @@ import FeaturedProperties from "@/components/FeaturedProperties";
 // export const metadata = {
 //     title: 'Dashboard'
 // }
+export const dynamic = 'force-dynamic'
 
 const HomePage = () => {
   // await connectDB(); // initial test (add async on the function above)
