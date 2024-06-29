@@ -13,7 +13,7 @@ async function fetchProperties({ showFeatured = false } = {}) {
     // http://localhost:3000/api/propeties
     const res = await fetch(
       `${apiDomain}/properties${showFeatured ? "/featured" : ""}`,
-    //   { cache: "no-store" }
+      { cache: "no-store" }
     );
 
     if (!res.ok) {
